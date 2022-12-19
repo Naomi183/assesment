@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(231, 229, 229);
+    outline-color: none;
+}
+
+.login-page{
+    margin: 130px auto;
+    width: 50%; 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+input, .btn-click{
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 25px 50px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.btn-click {
+    background-color: rgb(76, 176, 80);
+    color: #fff;
+}
+.btn-click:hover{
+    background-color: rgba(65, 190, 65, 0.911);
+}

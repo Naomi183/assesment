@@ -1,0 +1,85 @@
+nav {
+  background: aliceblue;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: rgb(37, 11, 11);
+  text-decoration: none;
+  margin: 10px;
+}
+
+.errorpage {
+  color: red;
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  margin-left: 18%;
+}
+
+.users-profile {
+  margin-bottom: 2rem;
+  color: rgb(3, 36, 61);
+}
+
+.button-click {
+  font-size: 2rem;
+}
+
+button {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.users-names {
+  width: 15rem;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(2, 75, 51);
+}
+
+
+.user-picture {
+  width: 40%;
+}
+
+.home-container {
+  background-size: cover;
+  background-position: top;
+  height: 91vh;
+  padding-bottom: 10px;
+}
+
+.home-setting {
+  font-size: 3rem;
+  color: rgb(1, 99, 99);
+  width: 50vw;
+  height: 40vh;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+   .sub-container {
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    margin-left: 18%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sub-container {
+    display: grid;
+    grid-template-columns: repeat(1,300px);
+    margin: 0 auto;
+    margin-left: 35%;
+  }
+}
